@@ -1,0 +1,99 @@
+{
+  "name": "Weekly Soil Analysis Report",
+  "nodes": [
+    {
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "parameters": {
+        "rule": {
+          "interval": [
+            "weeks",
+            1
+          ]
+        }
+      },
+      "webhookId": "",
+      "position": [
+        300,
+        300
+      ]
+    },
+    {
+      "name": "LeafEngines Soil",
+      "type": "n8n-nodes-leafengines.leafenginesSoil",
+      "parameters": {
+        "county": "Fulton",
+        "state": "GA",
+        "depth": "surface",
+        "returnAll": false,
+        "limit": 1
+      },
+      "position": [
+        500,
+        300
+      ]
+    },
+    {
+      "name": "Google Sheets",
+      "type": "n8n-nodes-base.googleSheets",
+      "parameters": {
+        "operation": "append",
+        "sheetId": "={{ $credentials.googleSheets.sheetId }}",
+        "range": "SoilData!A:Z",
+        "options": {}
+      },
+      "position": [
+        700,
+        300
+      ]
+    },
+    {
+      "name": "Email Send",
+      "type": "n8n-nodes-base.emailSend",
+      "parameters": {
+        "to": "team@example.com",
+        "subject": "Weekly Soil Analysis Report",
+        "text": "Soil analysis completed for Fulton County, GA. Data appended to Google Sheets.",
+        "options": {}
+      },
+      "position": [
+        700,
+        500
+      ]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "LeafEngines Soil",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "LeafEngines Soil": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Email Send",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {},
+  "staticData": null,
+  "pinData": {}
+}
