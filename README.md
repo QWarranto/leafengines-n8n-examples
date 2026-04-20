@@ -135,3 +135,18 @@ Examples and documentation are provided under MIT License.
 - **Documentation:** [LeafEngines n8n Integration Guide](https://docs.leafengines.com/n8n)
 - **Community:** [n8n Community Forum](https://community.n8n.io)
 - **Issues:** Please report issues through proper support channels
+## 💰 Pricing for n8n Automation Examples
+
+These examples work with LeafEngines' agricultural intelligence API:
+
+**Monthly Subscription Plans:**
+
+| Region | Starter | Pro | Local Payment Methods |
+|--------|---------|-----|----------------------|
+| **United States** | $49 | $149 | Card, Apple Pay, Google Pay, Affirm |
+| **European Union** | €45 (VAT incl.) | €135 (VAT incl.) | Klarna (DE), iDEAL (NL), EPS (AT), Apple/Google Pay |
+| **United Kingdom** | £38 (VAT incl.) | £115 (VAT incl.) | Afterpay/Clearpay, Apple/Google Pay |
+| **Australia** | AU$75 (GST incl.) | AU$225 (GST incl.) | Afterpay, Apple/Google Pay |
+
+**Free Testing:** Use `leaf-test-370df0a2e62e` test key or `x-free-tier: true` header
+**Founder Pricing:** First 100 customers get lifetime pricing lock
