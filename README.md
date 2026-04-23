@@ -166,4 +166,9 @@ These examples work with LeafEngines' agricultural intelligence API:
 | **Australia** | AU$75 (GST incl.) | AU$225 (GST incl.) | Afterpay, Apple/Google Pay |
 
 **Free Testing:** Use `leaf-test-370df0a2e62e` test key or `x-free-tier: true` header
+Immediate access with test key: leaf-test-370df0a2e62e
+
+**Test key gives you:**n- Full soil analysis capabilitiesn- Crop recommendationsn-  All free tier features
 **Founder Pricing:** First 100 customers get lifetime pricing lock
+Want higher limits or commercial use? Get instant API keys via Stripe checkout (Starter: $49 Founder Pricing).
+Starter/Founder Princing for a limited time --->https://buy.stripe.com/14A7sL30y8bR2F4fbgaMU02
