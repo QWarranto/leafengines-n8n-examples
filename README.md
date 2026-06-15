@@ -1,6 +1,20 @@
 
 ## 🎯 QGIS Plugin Officially Approved!
 
+## ⚡ Get Started Now
+
+**Free tier — no signup, no credit card:**
+- **Test key:** `leaf-test-370df0a2e62e` (works immediately)
+- **Free header:** `x-free-tier: true` (no key needed)
+
+**Ready for production?**
+- [Starter — $149/mo →](https://buy.stripe.com/5kQ6oHcB88bR93s8MSaMU04)
+- [Pro — $499/mo →](https://buy.stripe.com/14A6oH7gO3VBcfE1kqaMU05)
+
+**Partner Program:** Stop building for free. Use our API to sell $100–200 soil reports to local farmers, drone pilots, and GIS communities. You buy each report for $25. [Join our Partner Program →](https://soilcertify.com)
+
+---
+
 **Plugin ID:** 4987 (LeafEngines Agricultural Intelligence)  
 **Version:** 1.0.2 Experimental  
 **Status:** ✅ **PUBLICLY AVAILABLE**  
@@ -166,4 +180,4 @@ These examples work with LeafEngines' agricultural intelligence API:
 | **Australia** | AU$75 (GST incl.) | AU$225 (GST incl.) | Afterpay, Apple/Google Pay |
 
 **Free Testing:** Use `leaf-test-370df0a2e62e` test key or `x-free-tier: true` header
-**Founder Pricing:** First 100 customers get lifetime pricing lock
+**Metered Pricing:** Pay-as-you-go credit packs + monthly subscriptions
