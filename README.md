@@ -46,6 +46,8 @@ Embed LeafEngines agricultural intelligence directly into your hardware or softw
 
 # LeafEngines n8n Examples
 
+> 🏆 **Global Startup Awards 2026 — North America Regional Nominee**
+
 Example workflows and documentation for the LeafEngines Agricultural Intelligence n8n node.
 
 ## 📦 Installation
